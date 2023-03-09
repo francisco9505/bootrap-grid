@@ -14,86 +14,89 @@
 <body>
 
     <nav class="navbar navbar-expand-lg text-bg-light  justify-content-around p-3">
-        
-      
-            <a class="navbar-brand" href="#">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
-                    width="30" height="30" class="d-inline-block align-top" alt="Bootstrap" loading="lazy">
+
+
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
+                width="30" height="30" class="d-inline-block align-top" alt="Bootstrap" loading="lazy">
             Instagram</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="true"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" ></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2"
+            aria-controls="navbarSupportedContent2" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col-30">
+
+            <button type="button" class="btn btn-info " data-toggle="modal">
+                Create a New Post
             </button>
-           
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-sharp fa-solid fa-gear"></i>
-                        </button>
-                        <ul class="dropdown-menu float-right" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Acción</a></li>
-                            <li><a class="dropdown-item" href="#">Otra acción</a></li>
-                            <li><a class="dropdown-item text-danger" href="#">Algo más aqui</a></li>
-                        </ul>
-                    
-                </form>
-                </div>
-            
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                 Settings<i class="fa-sharp fa-solid fa-gear"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-start">
+                  <li><button class="dropdown-item" type="button">Acción</button></li>
+                  <li><button class="dropdown-item" type="button">Otra acción</button></li>
+                  <li><button class="dropdown-item" type="button">Algo más aqui</button></li>
+                </ul>
+              </div>
+
         
+        
+
+
         </div>
-    </div>
+        
     </nav>
 
 
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="bd-example">
             <nav>
                 <div class="nav nav-tabs mb-3 justify-content-center" id="nav-tab" role="tablist ">
-                    <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" 
-                        type="button" role="tab" aria-controls="nav-home" aria-selected="false" ><i class="fa-solid fa-table-cells"></i></button>
+                    <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="false"><i
+                            class="fa-solid fa-table-cells"></i></button>
                     <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-grip-lines-vertical"></i></button>
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i
+                            class="fa-solid fa-grip-lines-vertical"></i></button>
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    
-                        <div class="row mr-5">
-                            <div class="col ratio ratio-4x3">
-                                <img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone2/mw2/home/new-updates/WZ2_Battle-Royale.jpg"
-                                    >
-                            </div>
-                            <div class="col">
-                                <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mwii/MWII-NEXT-COD-WZM-002.jpg "
-                                    width="100%" height="300px">
-                            </div>
-                            <div class="col ratio ratio-4x3"> 
-                                <img src="https://depor.com/resizer/JNfTIm_91vnaWzf3Y2UKFmX7JNQ=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LA57ULA7ENE3RDFN4SBMOTRSXY.jpg"
-                                    >
-                            </div>
-                            
 
+                    <div class="row mr-5">
+                        <div class="col ratio ratio-4x3">
+                            <img
+                                src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone2/mw2/home/new-updates/WZ2_Battle-Royale.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mwii/MWII-NEXT-COD-WZM-002.jpg "
+                                width="100%" height="300px">
+                        </div>
+                        <div class="col ratio ratio-4x3">
+                            <img
+                                src="https://depor.com/resizer/JNfTIm_91vnaWzf3Y2UKFmX7JNQ=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LA57ULA7ENE3RDFN4SBMOTRSXY.jpg">
                         </div>
 
-                        <div class="row my-3">
-                            <div class="col ratio ratio-4x3">
-                                <img src="https://i.blogs.es/a78cfc/warzone-2/840_560.jpeg" width="100%">
-                            </div>
-                            <div class="col">
-                                <img src="https://i.blogs.es/94ad8d/inside-plane-hanger-looking-down/840_560.jpg"
-                                    width="100%" height="300px">
-                            </div>
-                            <div class="col ratio ratio-4x3">
-                                <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages02/2020/03/30/AA8E81C9-BB96-4CF2-BA85-4E964EA18AB6/98.jpg?crop=1200,675,x0,y0&width=1900&height=1069&optimize=high&format=webply"
+
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col ratio ratio-4x3">
+                            <img src="https://i.blogs.es/a78cfc/warzone-2/840_560.jpeg" width="100%">
+                        </div>
+                        <div class="col">
+                            <img src="https://i.blogs.es/94ad8d/inside-plane-hanger-looking-down/840_560.jpg"
+                                width="100%" height="300px">
+                        </div>
+                        <div class="col ratio ratio-4x3">
+                            <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages02/2020/03/30/AA8E81C9-BB96-4CF2-BA85-4E964EA18AB6/98.jpg?crop=1200,675,x0,y0&width=1900&height=1069&optimize=high&format=webply"
                                 width="295px" height="200px">
-                            </div>
-                            
-                        
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -101,35 +104,40 @@
 
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
-                    <div class="container-fluid  border border-dark w-25 my-5 mx-auto jus">
+                    <div class="container  border border-dark w-50 my-5 mx-auto>
 
-                        
-                        
+
+
                         <div class="row justify-content-center border">
-                            <div class="col-9 "><h3>Warzone</h3></div>
+                            <div class="col-9 ">
+                                <h3>Warzone</h3>
+                            </div>
                             <div class="col-3 ">&nbsp;&nbsp;&nbsp;13/01</div>
-                        
-                        <div class="ratio ratio-1x1">
-                           
+
+                            <div class="ratio ratio-1x1">
+
                                 <img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone2/mw2/home/new-updates/WZ2_Battle-Royale.jpg"
-                                width="100%">
-                           
+                                    width="100%">
+
+                            </div>
+                            <div class="footer">
+                                <strong>500 likes</strong><br>
+                                Call of Duty: Warzone[b] is a free-to-play battle royale video game released on March
+                                10,
+                                2020, for PlayStation 4, Xbox One, and Microsoft Windows.
+                            </div>
                         </div>
-                        <div class="footer">
-                            <strong>500 likes</strong><br>
-                            Call of Duty: Warzone[b] is a free-to-play battle royale video game released on March 10,
-                            2020, for PlayStation 4, Xbox One, and Microsoft Windows.
-                        </div>
-                    </div>
                     </div>
 
 
-                    <div class="container  border border-dark w-25 mx-auto">
+                    <div class="container  border border-dark w-50 mx-auto">
                         <div class="row justify-content-center border">
-                            <div class="col-9 "><h3>Warzone</h3></div>
+                            <div class="col-9 ">
+                                <h3>Warzone</h3>
+                            </div>
                             <div class="col-3 ">&nbsp;&nbsp;&nbsp;13/01</div>
-                        
-                        
+
+
                             <div class="col ratio ratio-1x1">
                                 <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mwii/MWII-NEXT-COD-WZM-002.jpg"
                                     width="285px" height="250px">
@@ -142,30 +150,34 @@
                             Modern Warfare content.</div>
                     </div>
 
-                    <div class="container  border border-dark w-25 my-5">
+                    <div class="container  border border-dark w-50 my-5">
                         <div class="row justify-content-center border">
-                            <div class="col-9 "><h3>Warzone</h3></div>
+                            <div class="col-9 ">
+                                <h3>Warzone</h3>
+                            </div>
                             <div class="col-3">&nbsp;&nbsp;&nbsp;13/01</div>
-                        
-                        
+
+
                             <div class="col ratio ratio-1x1">
                                 <img src="https://depor.com/resizer/JNfTIm_91vnaWzf3Y2UKFmX7JNQ=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LA57ULA7ENE3RDFN4SBMOTRSXY.jpg"
                                     width="270px" height="250px">
                             </div>
                         </div>
                         <div class="footer"><strong>351 likes</strong><br>
-                        Warzone was developed by Infinity Ward and Raven Software (the latter later
+                            Warzone was developed by Infinity Ward and Raven Software (the latter later
                             credited as the sole developer following the integration of Cold War's content) and
                             published by Activision.</div>
                     </div>
 
 
-                    <div class="container  border border-dark w-25 my-5">
+                    <div class="container  border border-dark w-50 my-5">
                         <div class="row justify-content-center border">
-                            <div class="col-9"><h3>Warzone</h3></div>
+                            <div class="col-9">
+                                <h3>Warzone</h3>
+                            </div>
                             <div class="col-3">&nbsp;&nbsp;&nbsp;13/01</div>
-                    
-                        
+
+
                             <div class="col ratio ratio-1x1">
                                 <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages02/2020/03/30/AA8E81C9-BB96-4CF2-BA85-4E964EA18AB6/98.jpg?crop=1200,675,x0,y0&width=1900&height=1069&optimize=high&format=webply"
                                     width="285px" height="250px">
@@ -185,7 +197,9 @@
 
 
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
